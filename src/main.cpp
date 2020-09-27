@@ -97,6 +97,8 @@ int main(int argc, char *argv[]) {
 
     ImVec4 clear_color = ImVec4(0, 0, 0, 1);
 
+    InitGameWindow(); // Setup FBO, etc
+
     bool done = false;
     while(!done) {
         SDL_Event event;
